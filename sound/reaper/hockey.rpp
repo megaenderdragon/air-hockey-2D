@@ -1,0 +1,906 @@
+<REAPER_PROJECT 0.1 "6.81/win64" 1791284177
+  <NOTES 0 2
+  >
+  RIPPLE 0
+  GROUPOVERRIDE 0 0 0
+  AUTOXFADE 129
+  ENVATTACH 3
+  POOLEDENVATTACH 0
+  MIXERUIFLAGS 11 48
+  PEAKGAIN 1
+  FEEDBACK 0
+  PANLAW 1
+  PROJOFFS 0 0 0
+  MAXPROJLEN 0 0
+  GRID 3455 8 1 8 1 0 0 0
+  TIMEMODE 1 5 -1 30 0 0 -1
+  VIDEO_CONFIG 0 0 256
+  PANMODE 3
+  CURSOR 2.70870521436441
+  ZOOM 762.49752242859404 0 0
+  VZOOMEX 6 0
+  USE_REC_CFG 0
+  RECMODE 1
+  SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
+  LOOP 0
+  LOOPGRAN 0 4
+  RECORD_PATH "" ""
+  <RECORD_CFG
+    ZXZhdxgAAQ==
+  >
+  <APPLYFX_CFG
+  >
+  RENDER_FILE ""
+  RENDER_PATTERN air-hockey-goal
+  RENDER_FMT 0 2 44100
+  RENDER_1X 0
+  RENDER_RANGE 1 0 0 18 1000
+  RENDER_RESAMPLE 3 0 1
+  RENDER_ADDTOPROJ 0
+  RENDER_STEMS 0
+  RENDER_DITHER 0
+  TIMELOCKMODE 1
+  TEMPOENVLOCKMODE 1
+  ITEMMIX 1
+  DEFPITCHMODE 589824 0
+  TAKELANE 1
+  SAMPLERATE 44100 0 0
+  <RENDER_CFG
+    ZXZhdxgAAQ==
+  >
+  LOCK 1
+  <METRONOME 6 2
+    VOL 0.25 0.125
+    FREQ 800 1600 1
+    BEATLEN 4
+    SAMPLES "" ""
+    PATTERN 2863311530 2863311529
+    MULT 1
+  >
+  GLOBAL_AUTO -1
+  TEMPO 120 4 4
+  PLAYRATE 1 0 0.25 4
+  SELECTION 1.16201262441867 0
+  SELECTION2 1.16201262441867 0
+  MASTERAUTOMODE 0
+  MASTERTRACKHEIGHT 0 0
+  MASTERPEAKCOL 16576
+  MASTERMUTESOLO 0
+  MASTERTRACKVIEW 0 0.6667 0.5 0.5 0 0 0 0 0 0 0 0 0
+  MASTERHWOUT 0 0 1 0 0 0 0 -1
+  MASTER_NCH 2 2
+  MASTER_VOLUME 1 0 -1 -1 1
+  MASTER_PANMODE 3
+  MASTER_FX 1
+  MASTER_SEL 0
+  <MASTERPLAYSPEEDENV
+    EGUID {2638E501-32C6-41CC-A9C2-A110EC88531C}
+    ACT 0 -1
+    VIS 0 1 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 0 -1 -1
+  >
+  <TEMPOENVEX
+    EGUID {7C9D4C77-6EEB-44CA-8D97-E02FCD00B0D3}
+    ACT 1 -1
+    VIS 1 0 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 1 -1 -1
+  >
+  <PROJBAY
+  >
+  <TRACK {160E1743-16AE-467B-9839-5B6CB40ACEC5}
+    NAME air-hockey-puck-goal1
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {160E1743-16AE-467B-9839-5B6CB40ACEC5}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 0.81
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1.1 0.01 0.33 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {EBC1ED70-7226-43C2-B68C-1BC1DBC9B1F8}
+      IID 1
+      NAME air-hockey-puck-goal1.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D43ACEA2-4F34-4522-93B9-53D800FA9046}
+      <SOURCE MP3
+        FILE "C:\Users\bgolda\Documents\GitHub\air-hockey-2D\sound\assets\air-hockey-puck-goal1.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 0.48
+      SNAPOFFS 0
+      LENGTH 0.68
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.33 1 1 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {2CF95680-484B-421B-B788-06B7941D9340}
+      IID 2
+      NAME air-hockey-puck-goal2.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4CE8F3F9-4125-4633-B7BC-C4D32E18E865}
+      <SOURCE MP3
+        FILE "C:\Users\bgolda\Documents\GitHub\air-hockey-2D\sound\assets\air-hockey-puck-goal2.mp3" 1
+      >
+    >
+  >
+  <TRACK {E64FE695-D254-48EF-9CF7-0F2788C1AED4}
+    NAME freesound_community-air-hockey-smack-61272
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 2 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    SEL 1
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {E64FE695-D254-48EF-9CF7-0F2788C1AED4}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 0.45819566100162
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {16D02E0B-4856-4F2D-898B-EA90AD83DD19}
+      IID 3
+      NAME freesound_community-air-hockey-smack-61272.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 1.50564187403617
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {DC1B9D09-1E08-4C7C-8C5B-8CC0BDDABE45}
+      <SOURCE MP3
+        FILE "C:\Users\bgolda\Documents\GitHub\air-hockey-2D\sound\assets\freesound_community-air-hockey-smack-61272.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 0.49316036256234
+      SNAPOFFS 0
+      LENGTH 0.31373016811757
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {83CB7400-0CBC-4A08-9AFE-EE3547766775}
+      IID 3
+      NAME freesound_community-air-hockey-smack-61272.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 2.43217627614058
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {AD7C1DD2-5150-4C6E-8B0E-C3A3BE945450}
+      <SOURCE MP3
+        FILE "C:\Users\bgolda\Documents\GitHub\air-hockey-2D\sound\assets\freesound_community-air-hockey-smack-61272.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 0.86452004497506
+      SNAPOFFS 0
+      LENGTH 0.28199505295511
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {58AF0395-4943-4DB6-928F-0F329F235FA9}
+      IID 3
+      NAME freesound_community-air-hockey-smack-61272.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 3.65988557190862
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8251184E-DDEF-49F0-A794-92DE0EE43FD4}
+      <SOURCE MP3
+        FILE "C:\Users\bgolda\Documents\GitHub\air-hockey-2D\sound\assets\freesound_community-air-hockey-smack-61272.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 1.21933072193266
+      SNAPOFFS 0
+      LENGTH 0.23953707422328
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {9A2B625A-4552-499E-91EE-87D9B51383DD}
+      IID 3
+      NAME freesound_community-air-hockey-smack-61272.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 4.58408230907229
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {FF6881AB-BA3D-4C7C-B7E4-F13C1502DF5A}
+      <SOURCE MP3
+        FILE "C:\Users\bgolda\Documents\GitHub\air-hockey-2D\sound\assets\freesound_community-air-hockey-smack-61272.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 1.48742461030548
+      SNAPOFFS 0
+      LENGTH 0.17078573629676
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {542C6D91-1ED5-498D-B117-1166FDF3E005}
+      IID 3
+      NAME freesound_community-air-hockey-smack-61272.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 4.86134150633801
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4DD2997F-930E-4B5E-911B-A01C35B4E15C}
+      <SOURCE MP3
+        FILE "C:\Users\bgolda\Documents\GitHub\air-hockey-2D\sound\assets\freesound_community-air-hockey-smack-61272.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 1.68535071554862
+      SNAPOFFS 0
+      LENGTH 0.31137723739255
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {9DA1A267-95E0-40C2-B15F-CFA5AE101E72}
+      IID 3
+      NAME freesound_community-air-hockey-smack-61272.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 5.91715316148027
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {63027029-C336-4FF0-8C07-D4555DC74EB2}
+      <SOURCE MP3
+        FILE "C:\Users\bgolda\Documents\GitHub\air-hockey-2D\sound\assets\freesound_community-air-hockey-smack-61272.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 2.10039977236283
+      SNAPOFFS 0
+      LENGTH 0.21248923004364
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {4685FFF8-6382-43B7-9D46-68EF842B67F7}
+      IID 3
+      NAME freesound_community-air-hockey-smack-61272.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 7.59042039851887
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {729E833F-2274-46CB-AF20-01EF2760CF62}
+      <SOURCE MP3
+        FILE "C:\Users\bgolda\Documents\GitHub\air-hockey-2D\sound\assets\freesound_community-air-hockey-smack-61272.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 2.34929681440772
+      SNAPOFFS 0
+      LENGTH 0.20322178698878
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {75D91A2A-4F6C-439A-BCCD-0329D8D2A9F8}
+      IID 3
+      NAME freesound_community-air-hockey-smack-61272.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 8.02958564660867
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BBBEED48-F9D2-4256-943E-2C2BB5DB30D4}
+      <SOURCE MP3
+        FILE "C:\Users\bgolda\Documents\GitHub\air-hockey-2D\sound\assets\freesound_community-air-hockey-smack-61272.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 2.7141710344926
+      SNAPOFFS 0
+      LENGTH 0.38354394886486
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {EA9E117D-1900-4F9A-9C9B-2573AB753661}
+      IID 3
+      NAME freesound_community-air-hockey-smack-61272.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 9.31590067176857
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {822D88B6-4F71-4DD6-B220-7E5A690EB8FF}
+      <SOURCE MP3
+        FILE "C:\Users\bgolda\Documents\GitHub\air-hockey-2D\sound\assets\freesound_community-air-hockey-smack-61272.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 3.2550925439006
+      SNAPOFFS 0
+      LENGTH 0.20498467108388
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {A9C33B3A-2C77-487C-B305-F52FA40B2FF6}
+      IID 3
+      NAME freesound_community-air-hockey-smack-61272.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 10.67847624889971
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {89662538-2F08-4E33-9056-5E5496961750}
+      <SOURCE MP3
+        FILE "C:\Users\bgolda\Documents\GitHub\air-hockey-2D\sound\assets\freesound_community-air-hockey-smack-61272.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 3.4944353770209
+      SNAPOFFS 0
+      LENGTH 0.27475719798729
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {B0AE6013-76F7-4915-B534-7441B81BB5F5}
+      IID 3
+      NAME freesound_community-air-hockey-smack-61272.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 10.8834609199836
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9ABDCC1A-D654-4DAF-AE5A-E5E82BCEDA3C}
+      <SOURCE MP3
+        FILE "C:\Users\bgolda\Documents\GitHub\air-hockey-2D\sound\assets\freesound_community-air-hockey-smack-61272.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 3.77181553435058
+      SNAPOFFS 0
+      LENGTH 0.22023085431111
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {8242B905-DE1D-44F8-9367-E5419E4510FF}
+      IID 3
+      NAME freesound_community-air-hockey-smack-61272.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 12.84607621060851
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B3F3F706-87FC-4909-8B4C-631C430836A4}
+      <SOURCE MP3
+        FILE "C:\Users\bgolda\Documents\GitHub\air-hockey-2D\sound\assets\freesound_community-air-hockey-smack-61272.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 4.06427550102658
+      SNAPOFFS 0
+      LENGTH 0.21245970673324
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {FC85BDF0-4862-4B0D-A792-DEDB65097D62}
+      IID 3
+      NAME freesound_community-air-hockey-smack-61272.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 13.08326402109765
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1627C9BE-0A70-47B1-916F-683BE0772A1F}
+      <SOURCE MP3
+        FILE "C:\Users\bgolda\Documents\GitHub\air-hockey-2D\sound\assets\freesound_community-air-hockey-smack-61272.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 4.32657143526515
+      SNAPOFFS 0
+      LENGTH 0.18436252199028
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C15C543A-F40C-4D2E-A53B-23581EC1D5EB}
+      IID 3
+      NAME freesound_community-air-hockey-smack-61272.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 14.0333222836682
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F69BBF63-8B54-490F-8426-CD67F020A3AD}
+      <SOURCE MP3
+        FILE "C:\Users\bgolda\Documents\GitHub\air-hockey-2D\sound\assets\freesound_community-air-hockey-smack-61272.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 4.56263777607986
+      SNAPOFFS 0
+      LENGTH 0.15800236221523
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F74CF064-B67E-4728-95F8-E13C36A1AFAB}
+      IID 3
+      NAME freesound_community-air-hockey-smack-61272.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 15.20156014684526
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9FF18959-F4C0-4896-B9E1-349183B013F9}
+      <SOURCE MP3
+        FILE "C:\Users\bgolda\Documents\GitHub\air-hockey-2D\sound\assets\freesound_community-air-hockey-smack-61272.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 4.76329416577236
+      SNAPOFFS 0
+      LENGTH 0.29722013797381
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {B114CB6A-555D-44E3-9090-63D6741634D3}
+      IID 3
+      NAME freesound_community-air-hockey-smack-61272.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 15.35956250906049
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6B4ECBB2-61AD-4F06-B10B-0E970715825E}
+      <SOURCE MP3
+        FILE "C:\Users\bgolda\Documents\GitHub\air-hockey-2D\sound\assets\freesound_community-air-hockey-smack-61272.mp3" 1
+      >
+    >
+  >
+  <TRACK {62EDD4E8-6588-4CF2-B456-A00866DE6F96}
+    NAME space-cadet-air-hockey-game-over-opponent-win
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {62EDD4E8-6588-4CF2-B456-A00866DE6F96}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 3.05732426303855
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {9214C0BB-EDB1-4700-A350-42D425238B42}
+      IID 4
+      NAME space-cadet-air-hockey-game-over-opponent-win.WAV
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B7171F1C-7890-4148-A405-E5E42239DD5E}
+      <SOURCE WAVE
+        FILE "C:\Users\bgolda\Documents\GitHub\air-hockey-2D\sound\assets\space-cadet-air-hockey-game-over-opponent-win.WAV"
+      >
+    >
+  >
+  <TRACK {749BC1A4-280D-424B-B80F-5560CE62EFA9}
+    NAME space-cadet-air-hockey-game-over-P1-win
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {749BC1A4-280D-424B-B80F-5560CE62EFA9}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 1.75582766439909
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F4F6BEE3-74CE-45D6-9F10-0CFAB30E5935}
+      IID 5
+      NAME space-cadet-air-hockey-game-over-P1-win.WAV
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {DFCE6DFB-CB99-4151-A730-89FB3023873C}
+      <SOURCE WAVE
+        FILE "C:\Users\bgolda\Documents\GitHub\air-hockey-2D\sound\assets\space-cadet-air-hockey-game-over-P1-win.WAV"
+      >
+    >
+  >
+  <TRACK {F8F9BA6B-4A17-48D8-B1A8-E6D772A8B442}
+    NAME space-cadet-air-hockey-opponent-goal1
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {F8F9BA6B-4A17-48D8-B1A8-E6D772A8B442}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 1.81024943310658
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {369AB38B-4D2A-415A-8599-168544B20830}
+      IID 6
+      NAME space-cadet-air-hockey-opponent-goal1.WAV
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {FC67E9F8-22E5-4052-86FF-AEB0C0C360E8}
+      <SOURCE WAVE
+        FILE "C:\Users\bgolda\Documents\GitHub\air-hockey-2D\sound\assets\space-cadet-air-hockey-opponent-goal1.WAV"
+      >
+    >
+  >
+  <TRACK {3782FAFE-53F9-4663-A302-B3DB75999CB8}
+    NAME space-cadet-air-hockey-opponent-goal2
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {3782FAFE-53F9-4663-A302-B3DB75999CB8}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 1.82331065759637
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {FD398E85-FCAB-490F-9515-3DB386761E09}
+      IID 7
+      NAME space-cadet-air-hockey-opponent-goal2.WAV
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {AF013973-1EA3-4CFF-B2A8-5F53FFDF195B}
+      <SOURCE WAVE
+        FILE "C:\Users\bgolda\Documents\GitHub\air-hockey-2D\sound\assets\space-cadet-air-hockey-opponent-goal2.WAV"
+      >
+    >
+  >
+  <TRACK {19F41D01-243C-4ED6-B54F-79132AAFB35A}
+    NAME space-cadet-air-hockey-P1-goal1
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {19F41D01-243C-4ED6-B54F-79132AAFB35A}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 1.0853514739229
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {10B7998F-AD62-4F0F-82C9-054438FEF6E4}
+      IID 8
+      NAME space-cadet-air-hockey-P1-goal1.WAV
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {71475751-0542-40AF-85CD-02C784637446}
+      <SOURCE WAVE
+        FILE "C:\Users\bgolda\Documents\GitHub\air-hockey-2D\sound\assets\space-cadet-air-hockey-P1-goal1.WAV"
+      >
+    >
+  >
+  <TRACK {ABC31140-48A2-4884-ACAE-EEA4B1D90550}
+    NAME space-cadet-air-hockey-P1-goal2
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {ABC31140-48A2-4884-ACAE-EEA4B1D90550}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 2.060589569161
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {4D2EA7CD-4BD9-4C2C-93EC-B79D666618D5}
+      IID 9
+      NAME space-cadet-air-hockey-P1-goal2.WAV
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {79870267-E65F-40E0-AFC8-56C3C0654C3B}
+      <SOURCE WAVE
+        FILE "C:\Users\bgolda\Documents\GitHub\air-hockey-2D\sound\assets\space-cadet-air-hockey-P1-goal2.WAV"
+      >
+    >
+  >
+  <TRACK {6E03C589-EB5C-4F0F-9A3D-4929BBFB5032}
+    NAME space-cadet-air-hockey-puck-hit1
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {6E03C589-EB5C-4F0F-9A3D-4929BBFB5032}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 0.82122448979592
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {7F69FDAA-70BE-4208-A56A-E648C20ACF0E}
+      IID 10
+      NAME space-cadet-air-hockey-puck-hit1.WAV
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B88CC990-D8DC-4E53-B2A4-710DF02690B9}
+      <SOURCE WAVE
+        FILE "C:\Users\bgolda\Documents\GitHub\air-hockey-2D\sound\assets\space-cadet-air-hockey-puck-hit1.WAV"
+      >
+    >
+  >
+  <TRACK {61581E94-F4B5-4A06-82F7-73E9BF9CB058}
+    NAME space-cadet-air-hockey-puck-hit2
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {61581E94-F4B5-4A06-82F7-73E9BF9CB058}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 0.8734693877551
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C9F5C019-C9E7-4064-921D-0AD28943E43E}
+      IID 11
+      NAME space-cadet-air-hockey-puck-hit2.WAV
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {087EE980-6767-41D1-996E-7F0B45366063}
+      <SOURCE WAVE
+        FILE "C:\Users\bgolda\Documents\GitHub\air-hockey-2D\sound\assets\space-cadet-air-hockey-puck-hit2.WAV"
+      >
+    >
+  >
+>
