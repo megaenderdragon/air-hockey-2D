@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{062f2421-e14b-40c5-a57e-c57f08f14921}">
+		<property name="assetPath">
+			<value>air-hockey-puck-hit-1.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.45941043083900229</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{62d55b97-cc32-4d34-a750-ed1dfe558aa1}</destination>
+		</relationship>
+	</object>
+</objects>
