@@ -16,6 +16,9 @@ public class AIScript : MonoBehaviour
 
     private Vector2 targetPosition;
 
+    private bool isFirstTimeInOpponentsHalf = true;
+    private float offsetXFromTarget;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -28,12 +31,29 @@ public class AIScript : MonoBehaviour
 
     private void FixedUpdate()
     {
-        float movementSpeed;
-
-        if (Puck.position.y < puckBoundary.Down)
+        if (!PuckScript.WasGoal)
         {
-            movementSpeed = MaxMovementSpeed * Random.Range(0.1f, 0.3f);
-            targetPosition = new Vector2(Mathf.Clamp(Puck.position.x, playerBoundary.Left, playerBoundary.Right), startingPosition.y);
+            float movementSpeed;
+
+            if (Puck.position.y < puckBoundary.Down)
+            {
+                if (isFirstTimeInOpponentsHalf)
+                {
+                    isFirstTimeInOpponentsHalf = false;
+                    offsetXFromTarget = Random.Range(-1f, 1f);
+                }
+                movementSpeed = MaxMovementSpeed * Random.Range(0.1f, 0.3f);
+                targetPosition = new Vector2(Mathf.Clamp(Puck.position.x + offsetXFromTarget, playerBoundary.Left, playerBoundary.Right), startingPosition.y);
+            }
+            else
+            {
+                isFirstTimeInOpponentsHalf = true;
+                movementSpeed = Random.Range(0.4f * MaxMovementSpeed, MaxMovementSpeed);
+                targetPosition = new Vector2(Mathf.Clamp(Puck.position.x, playerBoundary.Left, playerBoundary.Right), Mathf.Clamp(Puck.position.y, playerBoundary.Down, playerBoundary.Up));
+            }
+
+            rb.MovePosition(Vector2.MoveTowards(rb.position, targetPosition, movementSpeed * Time.fixedDeltaTime));
         }
+        
     }
 }
