@@ -9,8 +9,15 @@ public class ScoreScript : MonoBehaviour
         AiScore, PlayerScore
     }
 
-    public TextMesh AiScoreText, PlayerScoreText;
+    public CanvasRenderer AiScoreCanvas, PlayerScoreCanvas;
+    private TextMeshPro AiScoreText, PlayerScoreText;
     private int aiScore, playerScore;
+
+    private void Start()
+    {
+        AiScoreText = AiScoreCanvas.GetComponent<TextMeshPro>();
+        PlayerScoreText = PlayerScoreCanvas.GetComponent<TextMeshPro>();
+    }
 
     public void Increment(Score whichScore)
     {
