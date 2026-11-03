@@ -42,7 +42,7 @@ MonoBehaviour:
   Path: Assets/sound/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639283533767595214
+  lastModified: 639292979932516575
   FileSizes:
   - Name: 
     Value: 922
@@ -73,7 +73,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -4836670321813832610}
   cacheVersion: 131861
-  cacheTime: 639283533767595214
+  cacheTime: 639292979932516575
   SerializableEventsDict:
   - key: event:/puck goal
     index: 0
@@ -179,6 +179,6 @@ MonoBehaviour:
   Path: Assets/sound/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639283533767580102
+  lastModified: 639292979932516575
   FileSizes: []
   Exists: 1
