@@ -9,25 +9,20 @@ public class ScoreScript : MonoBehaviour
         AiScore, PlayerScore
     }
 
-    public CanvasRenderer AiScoreCanvas, PlayerScoreCanvas;
-    private TextMeshPro AiScoreText, PlayerScoreText;
-    private int aiScore, playerScore;
-
-    private void Start()
-    {
-        AiScoreText = AiScoreCanvas.GetComponent<TextMeshPro>();
-        PlayerScoreText = PlayerScoreCanvas.GetComponent<TextMeshPro>();
-    }
+    public TMP_Text AiScoreText, PlayerScoreText;
+    private int aiScore, playerScore = 0;
 
     public void Increment(Score whichScore)
     {
         if (whichScore == Score.AiScore)
         {
-            AiScoreText.text = (++aiScore).ToString();
+            aiScore++;
+            AiScoreText.text = (aiScore).ToString();
         }
         else
         {
-            PlayerScoreText.text = (++playerScore).ToString();
+            playerScore++;
+            PlayerScoreText.text = (playerScore).ToString();
         }
     }
 }
