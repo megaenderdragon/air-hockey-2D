@@ -42,7 +42,7 @@ MonoBehaviour:
   Path: Assets/sound/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639299046740075916
+  lastModified: 639299100331935925
   FileSizes:
   - Name: 
     Value: 972
@@ -74,7 +74,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -4836670321813832610}
   cacheVersion: 131861
-  cacheTime: 639299046740075916
+  cacheTime: 639299100331935925
   SerializableEventsDict:
   - key: event:/puck goal
     index: 0
@@ -139,7 +139,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 2267
+  Length: 2062
 --- !u!114 &3696996540920874591
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -166,7 +166,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 3000
+  Length: 3058
 --- !u!114 &8945498974054144311
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -182,7 +182,7 @@ MonoBehaviour:
   Path: Assets/sound/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639299046740075916
+  lastModified: 639299100331925913
   FileSizes: []
   Exists: 1
 --- !u!114 &9019685745740378845
