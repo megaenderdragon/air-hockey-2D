@@ -26,7 +26,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 1176
+  Length: 1997
 --- !u!114 &-4836670321813832610
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42,10 +42,10 @@ MonoBehaviour:
   Path: Assets/sound/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639292979932516575
+  lastModified: 639299046740075916
   FileSizes:
   - Name: 
-    Value: 922
+    Value: 972
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -67,13 +67,14 @@ MonoBehaviour:
   - {fileID: 3696996540920874591}
   - {fileID: 1599947793386787523}
   - {fileID: 1700397704451108844}
+  - {fileID: 9019685745740378845}
   EditorParameters: []
   MasterBanks:
   - {fileID: 8945498974054144311}
   StringsBanks:
   - {fileID: -4836670321813832610}
   cacheVersion: 131861
-  cacheTime: 639292979932516575
+  cacheTime: 639299046740075916
   SerializableEventsDict:
   - key: event:/puck goal
     index: 0
@@ -83,6 +84,8 @@ MonoBehaviour:
     index: 2
   - key: event:/Goal-score-sounds
     index: 3
+  - key: event:/puck impact
+    index: 4
 --- !u!114 &1599947793386787523
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -179,6 +182,33 @@ MonoBehaviour:
   Path: Assets/sound/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639292979932516575
+  lastModified: 639299046740075916
   FileSizes: []
   Exists: 1
+--- !u!114 &9019685745740378845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/puck impact
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/puck impact
+  Guid:
+    Data1: 1876123217
+    Data2: 1312946689
+    Data3: -1739863647
+    Data4: -1311220039
+  Banks:
+  - {fileID: 8945498974054144311}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
