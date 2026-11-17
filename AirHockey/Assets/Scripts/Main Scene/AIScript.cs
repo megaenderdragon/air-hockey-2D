@@ -54,6 +54,11 @@ public class AIScript : MonoBehaviour
 
             rb.MovePosition(Vector2.MoveTowards(rb.position, targetPosition, movementSpeed * Time.fixedDeltaTime));
         }
-        
+
+    }
+
+    public void ResetPosition()
+    {
+        rb.position = startingPosition;
     }
 }
