@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{d5fec78c-046c-4874-b460-3cf1e10f1b50}">
+		<property name="assetPath">
+			<value>air-hockey-lose.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>3.0582086167800453</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{62d55b97-cc32-4d34-a750-ed1dfe558aa1}</destination>
+		</relationship>
+	</object>
+</objects>

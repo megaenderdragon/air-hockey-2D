@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{3c2b1c9d-7ec9-4b44-84ad-0b644eef6e7c}">
+		<property name="assetPath">
+			<value>air-hockey-puck-impact-2.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.87303854875283449</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{62d55b97-cc32-4d34-a750-ed1dfe558aa1}</destination>
+		</relationship>
+	</object>
+</objects>
