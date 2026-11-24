@@ -177,7 +177,7 @@ GameObject:
   - component: {fileID: 69293247}
   m_Layer: 0
   m_Name: StageFrameGoals_0 (1)
-  m_TagString: Untagged
+  m_TagString: AIGoal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -504,8 +504,8 @@ GameObject:
   m_Component:
   - component: {fileID: 299851196}
   - component: {fileID: 299851195}
-  - component: {fileID: 299851194}
   - component: {fileID: 299851193}
+  - component: {fileID: 299851197}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -557,14 +557,6 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
---- !u!81 &299851194
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 299851192}
-  m_Enabled: 1
 --- !u!20 &299851195
 Camera:
   m_ObjectHideFlags: 0
@@ -631,6 +623,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &299851197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 299851192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioListener
+  nonRigidbodyVelocity: 0
+  attenuationObject: {fileID: 0}
 --- !u!1 &309226941
 GameObject:
   m_ObjectHideFlags: 0
@@ -1621,7 +1627,7 @@ GameObject:
   - component: {fileID: 1223218154}
   m_Layer: 0
   m_Name: StageFrameGoals_0
-  m_TagString: Untagged
+  m_TagString: PlayerGoal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1701,6 +1707,113 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
+--- !u!1 &1432699921
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1432699922}
+  - component: {fileID: 1432699923}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1432699922
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1432699921}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1432699923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1432699921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3283bbfc52fd9a4d9dfca1219c93a61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AirHockeyAudioManager
+  goalFanfareA:
+    Guid:
+      Data1: 846605728
+      Data2: 1099152252
+      Data3: 890247846
+      Data4: 1199150093
+    Path: event:/Goal score you
+  goalFanfareB:
+    Guid:
+      Data1: -1527806648
+      Data2: 1156812766
+      Data3: 139312306
+      Data4: -785790750
+    Path: event:/Goal score opponent
+  gameOverFanfareA:
+    Guid:
+      Data1: 878755650
+      Data2: 1292752548
+      Data3: -3017811
+      Data4: 1942412204
+    Path: event:/Game over you
+  gameOverFanfareB:
+    Guid:
+      Data1: -479398327
+      Data2: 1080366065
+      Data3: 1136344750
+      Data4: 944516616
+    Path: event:/Game over opponent
+  malletHit:
+    Guid:
+      Data1: -824054908
+      Data2: 1082008495
+      Data3: -181268049
+      Data4: -1763865939
+    Path: event:/mallet hit
+  puckImpact:
+    Guid:
+      Data1: 1876123217
+      Data2: 1312946689
+      Data3: -1739863647
+      Data4: -1311220039
+    Path: event:/puck impact
+  goalGentle:
+    Guid:
+      Data1: 306123710
+      Data2: 1308800111
+      Data3: 350408359
+      Data4: 1524520749
+    Path: event:/puck goal gentle
+  goalImpact:
+    Guid:
+      Data1: 860245266
+      Data2: 1186013859
+      Data3: -108454209
+      Data4: 663675742
+    Path: event:/puck goal hard
+  clickSound:
+    Guid:
+      Data1: -2021198786
+      Data2: 1230324659
+      Data3: -440960083
+      Data4: 1831447605
+    Path: event:/click
 --- !u!1 &1528437655
 GameObject:
   m_ObjectHideFlags: 0
@@ -2392,3 +2505,4 @@ SceneRoots:
   - {fileID: 712116783}
   - {fileID: 866984744}
   - {fileID: 31689261}
+  - {fileID: 1432699922}
